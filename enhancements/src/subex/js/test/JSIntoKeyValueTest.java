@@ -43,9 +43,12 @@ public class JSIntoKeyValueTest {
 
 		jsFilePath = "D:\\project\\RA\\mywork\\WebClient-Localization\\ALL_JS_Files\\English_Original\\CommonMessages.js";
 		testClass.printVarKeyValuePair(jsFilePath);
+    }
 
-
-    } 
-    
+	@Test
+	public void testCreateVarKeyValMap() {
+		String jsFilePath = "D:\\project\\RA\\mywork\\WebClient-Localization\\ALL_JS_Files\\English_Original\\CommonMessages.js";
+		testClass.printVarKeyValuePair(jsFilePath);
+	}
         
 } 
