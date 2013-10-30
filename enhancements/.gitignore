@@ -1,4 +1,5 @@
 .idea
 # ignore the generated class files.
 *.class
-out/
+/out/
+/.idea/
